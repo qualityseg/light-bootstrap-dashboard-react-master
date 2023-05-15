@@ -19,7 +19,7 @@ import {
 function Dashboard() {
   return (
     <>
-      <center><iframe title="OS" width="1200" height="836" src="https://app.powerbi.com/view?r=eyJrIjoiYmMyYjdjYTItNDcyMi00ZTY4LTlkOWQtZDBhOGZmY2JlOWM0IiwidCI6ImMxNTk2NDVkLTM3ZjUtNDg5Ny1hNTQ5LTNhZDIzMDkyZTdjNyJ9" frameborder="0" allowFullScreen="true"></iframe></center>
+      <center><iframe title="OS" width="1000" height="836" src="https://app.powerbi.com/view?r=eyJrIjoiYmMyYjdjYTItNDcyMi00ZTY4LTlkOWQtZDBhOGZmY2JlOWM0IiwidCI6ImMxNTk2NDVkLTM3ZjUtNDg5Ny1hNTQ5LTNhZDIzMDkyZTdjNyJ9" frameborder="0" allowFullScreen="true"></iframe></center>
     </>
   );
 }
