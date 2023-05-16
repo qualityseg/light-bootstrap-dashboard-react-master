@@ -23,6 +23,9 @@ function Dashboard() {
 
       <center><iframe title="OS" width="900" height="550" src="https://analytics.zoho.com/open-view/2737732000000003416" frameborder="0" allowFullScreen="true"></iframe></center>
 
+      <center><iframe title="OS" width="900" height="550" src="https://analytics.zoho.com/open-view/2737732000000028463" frameborder="0" allowFullScreen="true"></iframe></center>
+
+
     </>
   );
 }
