@@ -47,7 +47,7 @@ function Sidebar({ color, image, routes }) {
             </div>
           </a>
           <a className="simple-text" href="">
-            Quality Seg Control
+            QS Control
           </a>
         </div>
         <Nav>
