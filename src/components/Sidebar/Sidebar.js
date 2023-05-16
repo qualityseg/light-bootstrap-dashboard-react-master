@@ -43,7 +43,7 @@ function Sidebar({ color, image, routes }) {
             className="simple-text logo-mini mx-1"
           >
             <div className="logo-img">
-              <img src={require("assets/img/reactlogo.png")} alt="..." style={{ width: "100%", height: "100%" }} />
+              <img src={require("assets/img/reactlogo.png")} alt="..." style={{ width: "400%", height: "400%" }} />
             </div>
           </a>
           <a className="simple-text" href="">
