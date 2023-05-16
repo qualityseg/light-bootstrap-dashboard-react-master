@@ -18,6 +18,7 @@
 import React, { Component } from "react";
 import { useLocation, NavLink } from "react-router-dom";
 
+
 import { Nav } from "react-bootstrap";
 
 import logo from "assets/img/reactlogo.png";
@@ -28,11 +29,11 @@ function Sidebar({ color, image, routes }) {
     return location.pathname.indexOf(routeName) > -1 ? "active" : "";
   };
   return (
-    <div className="sidebar" data-image={image} data-color={color}>
+    <div className="sidebar" data-image={image} data-color={'green'}>
       <div
         className="sidebar-background"
         style={{
-          backgroundImage: "url(" + image + ")"
+          backgroundImage: "url(https://imgur.com/DJdI4pA.jpg)"
         }}
       />
       <div className="sidebar-wrapper">
@@ -45,7 +46,7 @@ function Sidebar({ color, image, routes }) {
               <img src={require("assets/img/reactlogo.png")} alt="..." style={{ width: "100%", height: "100%" }} />
             </div>
           </a>
-          <a className="simple-text" href="http://www.creative-tim.com">
+          <a className="simple-text" href="">
             QUALITYSEG
           </a>
         </div>
