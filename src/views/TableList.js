@@ -33,9 +33,9 @@ function TableList() {
           <Col md="12">
             <Card className="card-plain table-plain-bg">
               <Card.Header>
-                <Card.Title as="h4">Resultado de CheckList's</Card.Title>
+                <Card.Title as="h4">Realizar CheckList's</Card.Title>
                 <p className="card-category">
-                  Clique e seja redirecionado.
+                  Clique no link ou leia o Qrcode para acessar o preenchimento dos Formulários
                 </p>
               </Card.Header>
               
@@ -44,7 +44,7 @@ function TableList() {
                   <thead>
                     <tr>
                       
-                      <th className="botder-0">Preencher CheckList</th>
+                      <th className="botder-0">Link direto CheckList</th>
                       <th className="border-0">QRCode</th>
                       <th className="border-0">Copiar Link</th>
                       
