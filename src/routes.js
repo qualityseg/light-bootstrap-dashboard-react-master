@@ -22,20 +22,12 @@ import Typography from "views/Typography.js";
 import Icons from "views/Icons.js";
 import Maps from "views/Maps.js";
 import Notifications from "views/Notifications.js";
-import Upgrade from "views/Upgrade.js";
+
 
 const dashboardRoutes = [
   {
-    upgrade: true,
-    path: "/upgrade",
-    name: "Upgrade to PRO",
-    icon: "nc-icon nc-alien-33",
-    component: Upgrade,
-    layout: "/admin"
-  },
-  {
     path: "/dashboard",
-    name: "PAINEL",
+    name: "Back-End em desenvolvimento constante pela IA da #QSLib",
     icon: "nc-icon nc-chart-pie-35",
     component: Dashboard,
     layout: "/admin"
