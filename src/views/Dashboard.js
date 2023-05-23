@@ -87,7 +87,16 @@ const Dashboard = () => {
           <BootstrapCard className="card-stats">
             <BootstrapCard.Body>
               <div className="d-flex align-items-center justify-content-center">
-                <BootstrapCard.Title as="h4" style={{ fontSize: '15px' }}><a href="https://forms.zohopublic.com/juliana15/form/ComercialQualitySegEngenhariadeSeguranaeMedicinado/formperma/iKxe7-5DD6rWrFM_duryGABo0x1oPTqqlnpafECN11w" target="_blank">Realizar OS</a></BootstrapCard.Title>
+                <img
+                  src="https://imgur.com/AtpGO1b.png"
+                  alt="Ícone"
+                  style={{ width: '50px', height: '50px' }}
+                />
+                <BootstrapCard.Title as="h4" style={{ fontSize: '15px', marginLeft: '10px' }}>
+                  <a href="https://forms.zohopublic.com/juliana15/form/ComercialQualitySegEngenhariadeSeguranaeMedicinado/formperma/iKxe7-5DD6rWrFM_duryGABo0x1oPTqqlnpafECN11w" target="_blank">
+                    Realizar OS
+                  </a>
+                </BootstrapCard.Title>
               </div>
             </BootstrapCard.Body>
             <BootstrapCard.Footer>
@@ -108,13 +117,21 @@ const Dashboard = () => {
         </Col>
 
 
+
         <Col lg="3" sm="3" className="text-center">
           <BootstrapCard className="card-stats">
             <BootstrapCard.Body>
-
-             
               <div className="d-flex align-items-center justify-content-center">
-                <BootstrapCard.Title as="h4" style={{ fontSize: '15px' }}><a href="https://docs.google.com/spreadsheets/d/1A__5WacsvBT4hsyCHvaeg4RkWbu4sp55hIa3oFyB8uY/edit" target="_blank">OS em Excel</a></BootstrapCard.Title>
+                <img
+                  src="https://imgur.com/kfgY9L8.png"
+                  alt="Ícone"
+                  style={{ width: '50px', height: '50px' }}
+                />
+                <BootstrapCard.Title as="h4" style={{ fontSize: '15px', marginLeft: '10px' }}>
+                  <a href="https://docs.google.com/spreadsheets/d/1A__5WacsvBT4hsyCHvaeg4RkWbu4sp55hIa3oFyB8uY/edit" target="_blank">
+                    OS em Excel
+                  </a>
+                </BootstrapCard.Title>
               </div>
             </BootstrapCard.Body>
             <BootstrapCard.Footer>
@@ -134,12 +151,21 @@ const Dashboard = () => {
           </BootstrapCard>
         </Col>
 
+
         <Col lg="3" sm="3" className="text-center">
           <BootstrapCard className="card-stats">
             <BootstrapCard.Body>
-              
               <div className="d-flex align-items-center justify-content-center">
-                <BootstrapCard.Title as="h4" style={{ fontSize: '15px' }}><a href="https://forms.zohopublic.com/esocial/form/EnviodoESocial/formperma/FuLjyXmuFRHA9dcUFtBFaXAlTkpSTmUW6AJiuI8c9mc" target="_blank">E-Social</a></BootstrapCard.Title>
+                <img
+                  src="https://imgur.com/819yZlS.png"
+                  alt="Ícone"
+                  style={{ width: '50px', height: '50px' }}
+                />
+                <BootstrapCard.Title as="h4" style={{ fontSize: '15px', marginLeft: '10px' }}>
+                  <a href="https://forms.zohopublic.com/esocial/form/EnviodoESocial/formperma/FuLjyXmuFRHA9dcUFtBFaXAlTkpSTmUW6AJiuI8c9mc" target="_blank">
+                    E-Social
+                  </a>
+                </BootstrapCard.Title>
               </div>
             </BootstrapCard.Body>
             <BootstrapCard.Footer>
@@ -159,11 +185,19 @@ const Dashboard = () => {
           </BootstrapCard>
         </Col>
 
+
         <Col lg="3" sm="3" className="text-center">
           <BootstrapCard className="card-stats">
             <BootstrapCard.Body>
               <div className="d-flex align-items-center justify-content-center">
-                <BootstrapCard.Title as="h4" style={{ fontSize: '15px' }}>Graficos</BootstrapCard.Title>
+                <img
+                  src="https://imgur.com/50PTOzr.png"
+                  alt="Ícone"
+                  style={{ width: '50px', height: '50px', marginRight: '10px' }}
+                />
+                <BootstrapCard.Title as="h4" style={{ fontSize: '15px' }}>
+                  Graficos
+                </BootstrapCard.Title>
               </div>
             </BootstrapCard.Body>
             <BootstrapCard.Footer>
@@ -182,6 +216,7 @@ const Dashboard = () => {
             </BootstrapCard.Footer>
           </BootstrapCard>
         </Col>
+
 
 
           {/* Restante das colunas omitidas por brevidade */}
