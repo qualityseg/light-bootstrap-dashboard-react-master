@@ -73,7 +73,7 @@ function TableList() {
                   
                   <tr>
                     
-                    <td><a href="https://forms.zohopublic.com/juliana15/form/ComercialQualitySegEngenhariadeSeguranaeMedicinado/formperma/iKxe7-5DD6rWrFM_duryGABo0x1oPTqqlnpafECN11w" target="_blank"> Controle de OS </a></td>
+                    <td><a href="https://forms.zohopublic.com/juliana15/form/ComercialQualitySegEngenhariadeSeguranaeMedicinado/formperma/iKxe7-5DD6rWrFM_duryGABo0x1oPTqqlnpafECN11w" target="_blank"> Realizar OS </a></td>
                     <td><img src="https://imgur.com/xpdVMKe.png" alt="QR Code Placeholder" width="100" heith="100" /></td>
                     <td><button onClick={() => LinkToClipboard('https://forms.zohopublic.com/juliana15/form/ComercialQualitySegEngenhariadeSeguranaeMedicinado/formperma/iKxe7-5DD6rWrFM_duryGABo0x1oPTqqlnpafECN11w')}>
                         Copiar Link

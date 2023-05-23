@@ -79,7 +79,7 @@ const Dashboard = () => {
           <BootstrapCard className="card-stats">
             <BootstrapCard.Body>
               <div className="d-flex align-items-center justify-content-center">
-                <BootstrapCard.Title as="h4" style={{ fontSize: '15px' }}>Realizar OS</BootstrapCard.Title>
+                <BootstrapCard.Title as="h4" style={{ fontSize: '15px' }}><a href="https://forms.zohopublic.com/juliana15/form/ComercialQualitySegEngenhariadeSeguranaeMedicinado/formperma/iKxe7-5DD6rWrFM_duryGABo0x1oPTqqlnpafECN11w" target="_blank">Realizar OS</a></BootstrapCard.Title>
               </div>
             </BootstrapCard.Body>
             <BootstrapCard.Footer>
