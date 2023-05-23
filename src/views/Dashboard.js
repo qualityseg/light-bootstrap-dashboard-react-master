@@ -83,7 +83,7 @@ const Dashboard = () => {
     <>
       <Container fluid>
         <Row>
-        <Col lg="2" sm="4" className="text-center">
+        <Col lg="3" sm="3" className="text-center">
           <BootstrapCard className="card-stats">
             <BootstrapCard.Body>
               <div className="d-flex align-items-center justify-content-center">
@@ -108,7 +108,7 @@ const Dashboard = () => {
         </Col>
 
 
-        <Col lg="2" sm="4" className="text-center">
+        <Col lg="3" sm="3" className="text-center">
           <BootstrapCard className="card-stats">
             <BootstrapCard.Body>
 
@@ -134,7 +134,7 @@ const Dashboard = () => {
           </BootstrapCard>
         </Col>
 
-        <Col lg="2" sm="4" className="text-center">
+        <Col lg="3" sm="3" className="text-center">
           <BootstrapCard className="card-stats">
             <BootstrapCard.Body>
               
@@ -159,34 +159,7 @@ const Dashboard = () => {
           </BootstrapCard>
         </Col>
 
-        <Col lg="2" sm="4" className="text-center">
-          <BootstrapCard className="card-stats">
-            <BootstrapCard.Body>
-              <div className="d-flex align-items-center justify-content-center">
-                <BootstrapCard.Title as="h4" style={{ fontSize: '15px' }}>E-Social</BootstrapCard.Title>
-              </div>
-            </BootstrapCard.Body>
-            <BootstrapCard.Footer>
-              <hr />
-              <div className="stats">
-                {isExpanded ? (
-                  <button className="btn btn-link" onClick={handleCloseClick}>
-                    <span className="ml-1">Fechar</span>
-                  </button>
-                ) : (
-                  <button className="btn btn-link" onClick={() => handleOpenClick('realizarOS')}>
-                    <span className="ml-1">Abrir</span>
-                  </button>
-                )}
-              </div>
-            </BootstrapCard.Footer>
-          </BootstrapCard>
-        </Col>
-
-        
-
-
-        <Col lg="2" sm="4" className="text-center">
+        <Col lg="3" sm="3" className="text-center">
           <BootstrapCard className="card-stats">
             <BootstrapCard.Body>
               <div className="d-flex align-items-center justify-content-center">
