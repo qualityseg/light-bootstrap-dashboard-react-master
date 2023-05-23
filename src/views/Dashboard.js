@@ -1,10 +1,14 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Col, Card as BootstrapCard, Row, Container } from 'react-bootstrap';
 import './styles.dashboard.scss';
 
 const Dashboard = () => {
   const [isExpanded, setIsExpanded] = useState(false);
   const [content, setContent] = useState(null);
+
+  useEffect(() => {
+    handleOpenClick('verGraficos');
+  }, []);
 
   const handleOpenClick = (contentType) => {
     setIsExpanded(!isExpanded);
@@ -177,6 +181,9 @@ const Dashboard = () => {
           {/* Restante das colunas omitidas por brevidade */}
         </Row>
         <Row>
+          {/* Restante das colunas omitidas por brevidade */}
+        </Row>
+        <Row>
           <Col lg="12" className={`text-center expanded ${isExpanded ? 'show' : ''}`}>
             <BootstrapCard className="card-stats">
               <div className="iframe-container">
@@ -191,4 +198,3 @@ const Dashboard = () => {
 };
 
 export default Dashboard;
-
