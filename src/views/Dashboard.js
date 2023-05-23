@@ -33,7 +33,7 @@ const Dashboard = () => {
             title="OS"
             width="900"
             height="550"
-            src="https://app.powerbi.com/view?r=eyJrIjoiMDhhMGVhM2EtYzJkNy00M2I4LWFkMWMtNDk5ZWUyYzE4YmJjIiwidCI6ImMxNTk2NDVkLTM3ZjUtNDg5Ny1hNTQ5LTNhZDIzMDkyZTdjNyJ9"
+            src="https://docs.google.com/spreadsheets/d/1A__5WacsvBT4hsyCHvaeg4RkWbu4sp55hIa3oFyB8uY/edit"
             frameBorder="0"
             allowFullScreen
           ></iframe>
@@ -107,8 +107,10 @@ const Dashboard = () => {
         <Col lg="3" sm="6" className="text-center">
           <BootstrapCard className="card-stats">
             <BootstrapCard.Body>
+
+             
               <div className="d-flex align-items-center justify-content-center">
-                <BootstrapCard.Title as="h4" style={{ fontSize: '15px' }}>OS em Excel</BootstrapCard.Title>
+                <BootstrapCard.Title as="h4" style={{ fontSize: '15px' }}><a href="https://docs.google.com/spreadsheets/d/1A__5WacsvBT4hsyCHvaeg4RkWbu4sp55hIa3oFyB8uY/edit" target="_blank">OS em Excel</a></BootstrapCard.Title>
               </div>
             </BootstrapCard.Body>
             <BootstrapCard.Footer>
@@ -119,7 +121,7 @@ const Dashboard = () => {
                     <span className="ml-1">Fechar</span>
                   </button>
                 ) : (
-                  <button className="btn btn-link" onClick={() => handleOpenClick('realizarOS')}>
+                  <button className="btn btn-link" onClick={() => handleOpenClick('visualizarOS')}>
                     <span className="ml-1">Abrir</span>
                   </button>
                 )}
