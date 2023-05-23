@@ -55,34 +55,15 @@ const dashboardRoutes = [
     component: TableList,
     layout: "/admin"
   },
-  {
-    path: "/typography",
-    name: "Tipografia",
-    icon: "nc-icon nc-paper-2",
-    component: Typography,
-    layout: "/admin"
-  },
-  {
-    path: "/icons",
-    name: "Icones",
-    icon: "nc-icon nc-atom",
-    component: Icons,
-    layout: "/admin"
-  },
+
   {
     path: "/maps",
-    name: "Mapas",
+    name: "Mapa de Rede",
     icon: "nc-icon nc-pin-3",
     component: Maps,
     layout: "/admin"
   },
-  {
-    path: "/notifications",
-    name: "Notificações",
-    icon: "nc-icon nc-bell-55",
-    component: Notifications,
-    layout: "/admin"
-  }
+
 ];
 
 export default dashboardRoutes;
