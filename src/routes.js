@@ -27,7 +27,7 @@ import Notifications from "views/Notifications.js";
 const dashboardRoutes = [
   {
     path: "/dashboard",
-    name: "Back-End em desenvolvimento constante pela IA da #QSLib",
+    name: "QS Back-End",
     icon: "nc-icon nc-chart-pie-35",
     component: Dashboard,
     layout: "/admin"
