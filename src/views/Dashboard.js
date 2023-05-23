@@ -6,11 +6,32 @@ const Dashboard = () => {
   const [isExpanded, setIsExpanded] = useState(false);
   const [content, setContent] = useState(null);
 
+  useEffect(() => {
+    handleOpenClick('verGraficos');
+  }, []);
+
   const handleOpenClick = (contentType) => {
     setIsExpanded(!isExpanded);
 
     // Define o conteúdo da coluna expandida com base no tipo de conteúdo
     switch (contentType) {
+      case 'verGraficos':
+        setContent(
+          <div>
+            <center>
+              <iframe
+                title="Graficos"
+                width="900"
+                height="536"
+                src="https://app.powerbi.com/view?r=eyJrIjoiNDg2NzAxYzUtMzhhOC00OWQ5LWE4ZDUtOTRlNTA0YmFlYWE4IiwidCI6ImMxNTk2NDVkLTM3ZjUtNDg5Ny1hNTQ5LTNhZDIzMDkyZTdjNyJ9"
+                frameBorder="0"
+                allowFullScreen
+              ></iframe>
+            </center>
+            <p>Conteúdo específico para Ver Gráficos</p>
+          </div>
+        );
+        break;
       case 'realizarOS':
         setContent(
           <iframe
@@ -47,23 +68,13 @@ const Dashboard = () => {
         ></iframe>
         );
         break;
-        case 'Coluna Extendida':
-        setContent(
-          <iframe
-          title="Coluna"
-          width="900"
-          height="550"
-          frameBorder="0"
-          allowFullScreen
-        ></iframe>
-        );
-        break;
+   
         case 'CAT':
           setContent(
             <div>
               <center>
                 <iframe
-                  title="Graficos"
+                  title="CAT"
                   width="900"
                   height="536"
                   src="https://forms.zohopublic.com/vendas61/form/PREENCHIMENTOCHECKLISTPARAABERTURADECATS2210/formperma/G-YBBYanBv3bWzUDeCWveTNYVBWSqCeILuISBllwQOE"
@@ -319,8 +330,6 @@ const Dashboard = () => {
             </BootstrapCard.Footer>
           </BootstrapCard>
         </Col>
-
-          
           {/* Restante das colunas omitidas por brevidade */}
         </Row>
         <Row>
