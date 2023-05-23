@@ -22,6 +22,7 @@ import Typography from "views/Typography.js";
 import Icons from "views/Icons.js";
 import Maps from "views/Maps.js";
 import Notifications from "views/Notifications.js";
+import Grafico from "views/Grafico.js";
 
 
 const dashboardRoutes = [
@@ -30,6 +31,14 @@ const dashboardRoutes = [
     name: "QS Back-End",
     icon: "nc-icon nc-chart-pie-35",
     component: Dashboard,
+    layout: "/admin"
+  },
+
+  {
+    path: "/Graficos",
+    name: "Graficos Power BI",
+    icon: "nc-icon nc-chart-pie-36",
+    component: Grafico,
     layout: "/admin"
   },
   {
