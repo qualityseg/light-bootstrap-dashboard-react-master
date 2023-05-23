@@ -39,12 +39,16 @@ const Dashboard = () => {
           ></iframe>
         );
         break;
-      case 'controleFrota':
+      case 'eSocial':
         setContent(
-          <div>
-            <h1>Controle de Frota</h1>
-            <p>Conteúdo específico para Controle de Frota</p>
-          </div>
+          <iframe
+          title="OS"
+          width="900"
+          height="550"
+          src="https://forms.zohopublic.com/esocial/form/EnviodoESocial/formperma/FuLjyXmuFRHA9dcUFtBFaXAlTkpSTmUW6AJiuI8c9mc"
+          frameBorder="0"
+          allowFullScreen
+        ></iframe>
         );
         break;
       case 'verGraficos':
@@ -79,7 +83,7 @@ const Dashboard = () => {
     <>
       <Container fluid>
         <Row>
-        <Col lg="3" sm="6" className="text-center">
+        <Col lg="2" sm="4" className="text-center">
           <BootstrapCard className="card-stats">
             <BootstrapCard.Body>
               <div className="d-flex align-items-center justify-content-center">
@@ -104,7 +108,7 @@ const Dashboard = () => {
         </Col>
 
 
-        <Col lg="3" sm="6" className="text-center">
+        <Col lg="2" sm="4" className="text-center">
           <BootstrapCard className="card-stats">
             <BootstrapCard.Body>
 
@@ -130,11 +134,36 @@ const Dashboard = () => {
           </BootstrapCard>
         </Col>
 
-        <Col lg="3" sm="6" className="text-center">
+        <Col lg="2" sm="4" className="text-center">
+          <BootstrapCard className="card-stats">
+            <BootstrapCard.Body>
+              
+              <div className="d-flex align-items-center justify-content-center">
+                <BootstrapCard.Title as="h4" style={{ fontSize: '15px' }}><a href="https://forms.zohopublic.com/esocial/form/EnviodoESocial/formperma/FuLjyXmuFRHA9dcUFtBFaXAlTkpSTmUW6AJiuI8c9mc" target="_blank">E-Social</a></BootstrapCard.Title>
+              </div>
+            </BootstrapCard.Body>
+            <BootstrapCard.Footer>
+              <hr />
+              <div className="stats">
+                {isExpanded ? (
+                  <button className="btn btn-link" onClick={handleCloseClick}>
+                    <span className="ml-1">Fechar</span>
+                  </button>
+                ) : (
+                  <button className="btn btn-link" onClick={() => handleOpenClick('eSocial')}>
+                    <span className="ml-1">Abrir</span>
+                  </button>
+                )}
+              </div>
+            </BootstrapCard.Footer>
+          </BootstrapCard>
+        </Col>
+
+        <Col lg="2" sm="4" className="text-center">
           <BootstrapCard className="card-stats">
             <BootstrapCard.Body>
               <div className="d-flex align-items-center justify-content-center">
-                <BootstrapCard.Title as="h4" style={{ fontSize: '15px' }}>PlaceHolder Text</BootstrapCard.Title>
+                <BootstrapCard.Title as="h4" style={{ fontSize: '15px' }}>E-Social</BootstrapCard.Title>
               </div>
             </BootstrapCard.Body>
             <BootstrapCard.Footer>
@@ -154,8 +183,10 @@ const Dashboard = () => {
           </BootstrapCard>
         </Col>
 
+        
 
-        <Col lg="3" sm="6" className="text-center">
+
+        <Col lg="2" sm="4" className="text-center">
           <BootstrapCard className="card-stats">
             <BootstrapCard.Body>
               <div className="d-flex align-items-center justify-content-center">
