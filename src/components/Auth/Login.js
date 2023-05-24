@@ -10,7 +10,7 @@ const Login = () => {
 
   const handleLogin = () => {
     axios
-      .post('http://localhost:3000/login', { email, password })
+      .post('129.148.55.118:3306/login', { email, password })
       .then((response) => {
         if (response.data.success) {
           const token = response.data.token;
