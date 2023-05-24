@@ -63,6 +63,13 @@ const dashboardRoutes = [
     component: Maps,
     layout: "/admin"
   },
+  {
+    path: "/maps",
+    name: "Certificados",
+    icon: "/impressora.png",
+    component: Maps,
+    layout: "/admin"
+  },
 
 ];
 
