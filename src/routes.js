@@ -23,6 +23,7 @@ import Icons from "views/Icons.js";
 import Maps from "views/Maps.js";
 import Notifications from "views/Notifications.js";
 import Grafico from "views/Grafico.js";
+import Certificados from "views/Certificados.js"
 
 
 const dashboardRoutes = [
@@ -64,10 +65,10 @@ const dashboardRoutes = [
     layout: "/admin"
   },
   {
-    path: "/maps",
+    path: "/certificados",
     name: "Certificados",
     icon: "/impressora.png",
-    component: Maps,
+    component: Certificados,
     layout: "/admin"
   },
 
