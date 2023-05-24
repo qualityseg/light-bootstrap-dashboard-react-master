@@ -9,7 +9,7 @@ const Register = () => {
 
   const handleRegister = () => {
     axios
-      .post('129.148.55.118:3306/register', { email, password })
+      .post('129.148.55.118/register', { email, password })
       .then((response) => {
         console.log(response.data);
         history.push('/login'); // Redirecionar para a página de login após o registro bem-sucedido
