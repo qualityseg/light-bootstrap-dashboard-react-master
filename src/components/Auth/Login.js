@@ -1,22 +1,22 @@
 import React, { useState } from 'react';
-import { useHistory } from 'react-router-dom';
+import { useRouter } from 'next/router';
 import axios from 'axios';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 
 const Login = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const history = useHistory();
+  const router = useRouter();
 
   const handleLogin = () => {
     axios
-      .post('129.148.55.118:3306/login', { email, password })
+      .post('/api/login', { email, password }) // Rota para o servidor Express no Next.js
       .then((response) => {
         if (response.data.success) {
           const token = response.data.token;
           // Armazene o token em algum lugar seguro (por exemplo, localStorage) para uso posterior
           localStorage.setItem('token', token);
-          history.push('/dashboard'); // Redirecionar para a página principal (dashboard)
+          router.push('/dashboard'); // Redirecionar para a página principal (dashboard)
         } else {
           console.log('Credenciais inválidas');
         }
@@ -51,7 +51,7 @@ const Login = () => {
         </button>
         <p>
           Não tem uma conta?{' '}
-          <Link to="/register">Registro de usuário</Link>
+          <Link href="/register">Registro de usuário</Link>
         </p>
       </form>
     </div>
